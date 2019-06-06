@@ -1,0 +1,15 @@
+[Unit]
+Description=Mosquitto MQTT v3.1/v3.1.1 server
+Wants=network.target
+Documentation=http://mosquitto.org/documentation/
+
+[Service]
+Type=simple
+User=mosquitto
+Group=mosquitto
+ExecStart=/usr/local/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+Restart=on-failure
+SyslogIdentifier=Mosquitto
+
+[Install]
+WantedBy=multi-user.target
