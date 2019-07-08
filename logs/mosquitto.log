@@ -1,0 +1,7 @@
+1561129478: mosquitto version 1.6.3 starting
+1561129478: Config loaded from mosquitto_s.conf.
+1561129478: Opening ipv4 listen socket on port 8883.
+1561129478: Opening ipv6 listen socket on port 8883.
+1561129478: Opening ipv4 listen socket on port 1887.
+1561129478: Opening ipv6 listen socket on port 1887.
+1561129489: mosquitto version 1.6.3 terminating
